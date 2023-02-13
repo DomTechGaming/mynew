@@ -8,10 +8,10 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "EnterKey"
 })
-getgenv().Key = 'f27309c27yh309r2s3r7hdmg24tc234t23dt23t23t2fce236gv37b35yc23'
+getgenv().Key = 'Nigger'
 
 Tab:AddTextbox({
-	Name = "Key",
+	Name = "Key: N_gger",
 	Default = "",
 	TextDisappear = true,
 	Callback = function(Value)
