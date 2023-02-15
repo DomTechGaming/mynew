@@ -348,17 +348,17 @@ Tab:AddButton({
 	Callback = function()
       	while wait() do
 			part.CFrame = game:GetService("Workspace").Chest1.CFrame
-            wait(0.0000000000000000000000000000000000000000001)
+            wait(0.0000000000000000000000000000000000000000000000000000000000000000000000001)
 		end	
   	end    
 })
 
-Tab:AddButton({
-	Name = "Gold Chest",
+	Tab:AddButton({
+		Name = "Gold Chest",
 	Callback = function()
       	while wait() do
 			part.CFrame = game:GetService("Workspace").Chest2.CFrame
-            wait(0.0000000000000000000000000000000000000000001)
+            wait(0.0000000000000000000000000000000000000000000000000000000000000000000000001)
 		end	
   	end    
 })
@@ -368,7 +368,7 @@ Tab:AddButton({
 	Callback = function()
       	while wait() do
 			part.CFrame = game:GetService("Workspace").Chest3.CFrame
-            wait(0.0000000000000000000000000000000000000000001)
+            wait(0.0000000000000000000000000000000000000000000000000000000000000000000000001)
 		end	
   	end    
 })
@@ -390,7 +390,7 @@ Tab:AddTextbox({
 		if IDServer == IDServer then
 			game.ReplicatedStorage['__ServerBrowser']:InvokeServer('teleport',IDServer)
         end
-	end	  
+	end
 })
 
 Tab:AddButton({
